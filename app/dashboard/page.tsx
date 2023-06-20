@@ -16,7 +16,7 @@ const Home = dynamic(
     () => import('app/dashboard/page'),
     { ssr: false }
 )
-export default function page({}: Props) {
+export default function Page({}: Props) {
     const [hydrated, setHydrated] = React.useState(false);
     React.useEffect(() => {
         setHydrated(true);
