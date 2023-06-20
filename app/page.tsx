@@ -35,7 +35,7 @@ export default async function Home() {
         >
           <Twitter className="h-5 w-5 text-[#1d9bf0]" />
           <p className="text-sm font-semibold text-[#1d9bf0]">
-            Introducing Precedent
+            Introducing Ali
           </p>
         </a>
         <h1
